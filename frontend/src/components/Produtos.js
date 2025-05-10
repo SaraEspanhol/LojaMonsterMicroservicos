@@ -32,11 +32,6 @@ const Produtos = () => {
 };
 
 const getImagemProduto = (nome) => {
-  if (nome.includes('Original')) return 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxvdDR4dmtpNjRnNW96azFsdjExbmFycWkweGpqOWhweWthZmc4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yqGJSngXaaa9W/giphy.gif';
-  if (nome.includes('White')) return 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxvdDR4dmtpNjRnNW96azFsdjExbmFycWkweGpqOWhweWthZmc4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yqGJSngXaaa9W/giphy.gif';
-  if (nome.includes('Mango')) return 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxvdDR4dmtpNjRnNW96azFsdjExbmFycWkweGpqOWhweWthZmc4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yqGJSngXaaa9W/giphy.gif';
-  if (nome.includes('Pipeline')) return 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxvdDR4dmtpNjRnNW96azFsdjExbmFycWkweGpqOWhweWthZmc4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yqGJSngXaaa9W/giphy.gif';
-  if (nome.includes('Zero')) return 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxvdDR4dmtpNjRnNW96azFsdjExbmFycWkweGpqOWhweWthZmc4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yqGJSngXaaa9W/giphy.gif';
   return 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxvdDR4dmtpNjRnNW96azFsdjExbmFycWkweGpqOWhweWthZmc4ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yqGJSngXaaa9W/giphy.gif';
 };
 
